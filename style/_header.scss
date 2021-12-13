@@ -1,0 +1,75 @@
+
+.header {
+    background: $main-black;
+    color: #fff;
+    padding: 18px 0;
+
+    &_logo {
+        margin-right: 40px;
+    }
+
+    &_personal {
+    margin: 0 30px 0 30px;
+    }
+
+    &_inside {
+        gap: 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &_left, &_right {
+        display: flex;
+        align-items: center;
+    }
+
+    &_button {
+        @include noborder-nobg;
+        color: #fff;
+        font-size: 28px;
+        line-height: 28px;
+
+        &:hover .header_svg {
+            fill: $main-color;
+            transform: scale(1.1);
+            transition: 0.2s ease-out 0.1s;
+        }
+        // &:hover .header_main_menue {
+        //     opacity: 1;
+        // }
+    }
+
+    &_cart {
+        position: relative;
+        padding: 5px 5px 5px 0;
+
+        &_number {
+            position: absolute;
+            top: 0;
+            right: -5px;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            background: $main-color;
+            @include text-size-info;
+            color: #FFFFFF;
+        }
+    
+    }
+    
+    &_svg {
+        fill: #fff;
+        transition: scale 0.5s ease-out 0.5s;
+    
+        &:hover {
+            fill: $main-color;
+            transform: scale(1.1);
+            transition: 0.2s ease-out 0.1s;
+        }
+    }
+}
