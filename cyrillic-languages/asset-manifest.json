@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/cyrillic-languages/static/css/main.89829383.css",
-    "main.js": "/cyrillic-languages/static/js/main.c7837a84.js",
+    "main.css": "/cyrillic-languages/static/css/main.57d9bf3a.css",
+    "main.js": "/cyrillic-languages/static/js/main.d09899ba.js",
     "index.html": "/cyrillic-languages/index.html",
-    "main.89829383.css.map": "/cyrillic-languages/static/css/main.89829383.css.map",
-    "main.c7837a84.js.map": "/cyrillic-languages/static/js/main.c7837a84.js.map"
+    "main.57d9bf3a.css.map": "/cyrillic-languages/static/css/main.57d9bf3a.css.map",
+    "main.d09899ba.js.map": "/cyrillic-languages/static/js/main.d09899ba.js.map"
   },
   "entrypoints": [
-    "cyrillic-languages/static/css/main.89829383.css",
-    "cyrillic-languages/static/js/main.c7837a84.js"
+    "cyrillic-languages/static/css/main.57d9bf3a.css",
+    "cyrillic-languages/static/js/main.d09899ba.js"
   ]
 }
