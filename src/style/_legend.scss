@@ -1,0 +1,120 @@
+.legendbg {
+    display: flex;
+    align-items: flex-end;
+    width: fit-content;
+    flex-wrap: nowrap;
+    list-style-type: none;
+    padding: 8px;
+    margin: 20px 24px 0 0;
+    gap: 8px;
+    width: fit-content;
+    border: 1px solid $main-bggrey;
+}
+
+.legendpartwrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.legendbtncontainer {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 8px;
+}
+
+.legendlastpartwrap {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.legenditem {
+    display: flex;
+    padding: 3px 20px 3px 0;
+}
+
+.legendmarkinfo {
+    width: 50px;
+    padding: 5px 0;
+}
+
+.legendmarkinfotext {
+    width: 270px;
+    padding-top: 3px;
+}
+
+.legenddiv {
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: $grey-transparent;
+    border-bottom-width: 0;
+    height: 28px;
+    border-right-width: thin;
+    // height: auto;
+    // align-self: stretch;
+}
+
+.legenddivlast {
+    display: block;
+}
+
+.legenddivhoriz {
+    padding: 2px 0;
+    flex-shrink: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: $main-bggrey;
+    border-bottom-width: thin;
+}
+
+
+// Togglebuttons
+
+.togglebtnswrap {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 8px;
+}
+
+.togglebtns {
+    align-self: flex-end;
+    font-size: 12px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+    background-color: white;
+    white-space: nowrap;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    outline: 1px solid $main-bggrey;
+
+    &:hover {
+        background-color: $darkgrey;
+        color: white;
+    }
+}
+
+.togglebtnstitle {
+    font-size: 12px;
+    color: $lightgrey-text;
+    text-transform: uppercase;
+    padding: 0 8px 0 0;
+    margin: 0;
+}
+
+.togglebtnstitle_on {
+    align-self: center;
+    font-size: 12px;
+    color: #6F6E6E;
+    text-transform: uppercase;
+    padding: 0 10px 0 0;
+    margin: 0;
+}
+
+.togglebtnsactive {
+    background-color: $darkgrey;
+    color: white;
+    cursor: default;
+}

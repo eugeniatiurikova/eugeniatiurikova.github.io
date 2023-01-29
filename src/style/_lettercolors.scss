@@ -1,0 +1,76 @@
+$dialect: #E4e0a0;
+$historic: #c2cef6;
+$extended: #aeddc9;
+$digraph: #b6e3ed; //#b3e4e3
+$consider: #ebc1c1;
+$foreign: #f8d1b1;
+
+.dialect {
+    background: $dialect;
+}
+
+.repdialect {
+    background: rgba($dialect, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+// *****
+
+.historic {
+    background: $historic;
+}
+
+.rephistoric {
+    background: rgba($historic, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+// *****
+
+.extended {
+    background: $extended;
+}
+
+.repextended {
+    background: rgba($extended, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+// *****
+
+.digraph {
+    background: $digraph;
+}
+
+.repdigraph {
+    background: rgba($digraph, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+// *****
+
+.consideration {
+    background: $consider;
+}
+
+.repconsideration {
+    background: rgba($consider, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+// *****
+
+.foreign {
+    background: $foreign;
+}
+
+.repforeign {
+    background: rgba($foreign, 0.75);
+    color: rgba($blackbg, 0.6);
+}
+
+
+.repsign {
+    background: rgba($main-grey, 0.75);
+    color: rgba($blackbg, 0.6);
+}
