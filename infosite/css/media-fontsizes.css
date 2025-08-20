@@ -1,5 +1,7 @@
 @media (min-width: 576px) {
 
+    html { font-size: 18px; }
+
     .menu-text { font-size: 13px; }
     
     .main-title, .subpromo-title, .subscribe-title { font-size: 54px; }
@@ -34,7 +36,7 @@
 
     .subscribe-title { 
         font-variation-settings: 'wght' 340, 'wdth' 54;
-        font-size: 70px;
+        font-size: 72px;
         line-height: 94%;
     }
     
