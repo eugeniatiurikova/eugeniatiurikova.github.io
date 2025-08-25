@@ -28,6 +28,7 @@
 
 .inuses-container {
     padding-bottom: var(--base-space);
+    padding-top: var(--base-space);
 }
 
 .tags-container {
