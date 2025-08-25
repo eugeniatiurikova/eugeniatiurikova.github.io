@@ -1,0 +1,123 @@
+.fullsize {
+    grid-column: span 4;
+}
+
+.vertsize {
+    grid-column: span 4;
+}
+
+.subpage-title-container {
+    padding-top: var(--base-space);
+}
+
+.filter-container {
+    display: flex;
+    gap: 6px;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 0.8rem;
+}
+
+.tag {
+    display: inline-block;
+    padding: 3px 10px;
+    border-radius: 10px;
+    border: 0.7px solid #000;
+    text-transform: lowercase;
+}
+
+.inuses-container {
+    padding-bottom: var(--base-space);
+}
+
+.tags-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding-top: 0.4rem;
+}
+
+.inuses-item {
+    grid-column: span 4;
+    margin-bottom: var(--base-space);
+}
+
+.inuse-image {
+    grid-row: 1;
+    height: 50vw;
+    border-radius: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.inuse-text {
+    grid-row: 2;
+    padding-left: 25%;
+    padding-top: 1rem;
+}
+
+.body-image {
+    grid-column: 1 / -1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-bottom: 1rem;
+}
+
+.inuse-description-part {
+    grid-column: span 4;
+}
+
+.inuses-info-container {
+    padding-top: calc(var(--base-space) * 0.8);
+    padding-bottom: var(--base-space);
+    gap: 1rem
+}
+
+.photo-description {
+    grid-column: 1 / -1;
+    padding-bottom: var(--base-space);
+}
+
+.inuse-subtitle {
+    grid-column: 1 / -1;
+    padding-bottom: 1rem;
+}
+
+.inuse-body-text {
+    grid-column: 1 / -1;
+    padding-bottom: var(--base-space);
+}
+
+.subpage-title {
+    grid-column: 1 / -1;
+    padding-bottom: 1.5rem;
+}
+
+.discuss-container {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0 20px;
+    padding: var(--base-space);
+    background-color: var(--color-accent);
+    color: white;
+    border-radius: 9px;
+    margin-bottom: calc(var(--base-space) * 2);
+}
+
+.discuss-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discuss-text {
+    padding-top: 1rem;
+}
+
+.discuss-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

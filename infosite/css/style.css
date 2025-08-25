@@ -2,10 +2,10 @@
     --color-bg: #F0F0EB;
     --color-accent: #FF3D00;
     --color-subscribe: #D5D3CA;
-    --base-space: 2rem;
+    --base-space: 2.1rem;
   }
   
-  @font-face {
+@font-face {
     font-family: 'PragmaticaVF';
     src: url('../media/fonts/PRG_Next-VF.ttf') format('truetype-variations'),
          url('../media/fonts/PRG_Next-VF.ttf') format('truetype');
@@ -16,11 +16,9 @@
 
 html {
     font-variation-settings: 'wght' 400, 'wdth' 100;
-    font-size: 12px;
+    font-size: 13px;
     line-height:150%;
 }
-
-* { margin: 0; padding: 0; box-sizing: border-box; }
 
 body {
     background-color: var(--color-bg);
@@ -31,27 +29,6 @@ img {
     display: block;
     max-width: 100%;
     height: auto;
-}
-
-.wrapper {
-    margin: 0 auto;
-    width: 100%;
-    display: grid;
-    gap: 0 20px;
-    grid-template-columns: repeat(4, 1fr);
-    padding-inline: 20px;
-    box-sizing: border-box;
-}
-
-.wrapper-nogrid {
-    margin: 0 auto;
-    width: 100%;
-    padding-inline: 20px;
-    box-sizing: border-box;
-}
-
-.grid-full {
-    grid-column: 1 / -1;
 }
 
 .divider {
@@ -70,6 +47,13 @@ img {
     color: black;
 }
 
+.parent-style-link-underline {
+    font-size: inherit;
+    text-transform: inherit;
+    text-decoration: underline;
+    color: black;
+}
+
 /* _______________________ Размеры и виды текста */
 
 .base-text {
@@ -85,6 +69,10 @@ img {
     text-decoration: none;
     color: black;
     display: block;
+}
+
+.menu-text-bold {
+    font-variation-settings: 'wght' 584, 'wdth' 100;
 }
 
 .main-title {
@@ -128,8 +116,26 @@ img {
     line-height: 140%;
 }
 
+.small-text-bold {
+    font-variation-settings: 'wght' 555, 'wdth' 100;
+}
+
+.tag-text {
+    font-variation-settings: 'wght' 400, 'wdth' 100;
+    font-size: 10px;
+    line-height: 140%;
+}
+
 .nowrap {
     white-space: nowrap;
+}
+
+.imgcover {
+    background-size: cover;
+}
+
+.imgcontain {
+    background-size: cover;
 }
 
 /* _______________________ Блоки */
@@ -389,6 +395,7 @@ img {
 
 .blog-list {
     list-style: none;
+    margin-bottom: var(--base-space);
 }
 
 .blog-item {
@@ -446,7 +453,6 @@ img {
     background-color: var(--color-subscribe);
     color: white;
     border-radius: 9px;
-    margin-top: var(--base-space);
 }
 
 .subscribe-form {

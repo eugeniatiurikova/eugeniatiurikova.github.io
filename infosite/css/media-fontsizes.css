@@ -1,3 +1,4 @@
+
 @media (min-width: 576px) {
 
     html { font-size: 18px; }
@@ -10,17 +11,13 @@
     
     .about-text { font-size: 16px; }
     
-    .small-text { font-size: 12px; }
+    .small-text { font-size: 14px; }
+
+    .tag-text { font-size: 12px; }
 
 }
 
 @media (min-width: 770px) {
-    .wrapper {
-        grid-template-columns: repeat(8, 1fr);
-        padding-inline: 20px;
-    }
-
-    .wrapper-nogrid { padding-inline: 20px; }
 
     html { font-size: 18px; }
 }
@@ -51,15 +48,6 @@
 
 @media (min-width: 1280px) {
 
-    .wrapper {
-        grid-template-columns: repeat(8, 1fr);
-        padding-inline: 45px;
-    }
-
-    .wrapper-nogrid {
-        padding-inline: 45px;
-    }
-
     .subscribe-title { font-size: 72px; }
     
 }
@@ -70,6 +58,7 @@
     html { font-size: 28px; }
 
     .main-title, .subpromo-title { font-size: 84px; }
+
     .subscribe-title { font-size: 84px; }
 
     .sub-subtitle-text { font-size: 42px; }
@@ -88,6 +77,7 @@
     .menu-text { font-size: 18px; }
     
     .main-title, .subpromo-title { font-size: 119px; }
+
     .subscribe-title { font-size: 119px; }
 
     .sub-subtitle-text { font-size: 60px; }
@@ -95,13 +85,7 @@
     .about-text { font-size: 38px; }
     
     .small-text { font-size: 18px; }
-
-}
-
-
-@media (min-width: 1920px) {
-    .wrapper, .wrapper-nogrid {
-        width: 1920px;
-    }
+    
+    .tag-text { font-size: 14px; }
 
 }
