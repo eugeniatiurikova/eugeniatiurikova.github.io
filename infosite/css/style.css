@@ -57,9 +57,9 @@ img {
 /* _______________________ Размеры и виды текста */
 
 .base-text {
-    font-variation-settings: 'wght' 580, 'wdth' 58;
-    font-size: 36px;
-    line-height: 94%;
+    font-variation-settings: 'wght' 400, 'wdth' 100;
+    font-size: 14px;
+    line-height: 120%;
 }
 
 .menu-text {

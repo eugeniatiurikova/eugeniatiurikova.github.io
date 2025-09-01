@@ -170,14 +170,15 @@
 
 .discuss-container {
     flex-direction: row;
+    align-items: center;
     margin-bottom: calc(var(--base-space) * 1.5);
 }
 
-.discuss-title { width: 30% }
+.discuss-title { display: contents; }
 
 .discuss-text {
-    width: 70%;
-    padding: 0 0 0 1rem;
+    width: 60%;
+    padding: 0 0 0 0.5rem;
 }
 
 }
@@ -314,9 +315,8 @@
     align-items: center;
 }
     
-.discuss-title { width: auto; white-space: nowrap; }
+.discuss-title { white-space: nowrap; }
 
-.discuss-text { width: auto; }
 
 }
 

@@ -10,7 +10,9 @@
     .sub-subtitle-text { font-size: 27px; }
     
     .about-text { font-size: 16px; }
-    
+
+    .base-text { font-size: 16px; }
+
     .small-text { font-size: 14px; }
 
     .tag-text { font-size: 12px; }
@@ -19,7 +21,6 @@
 
 @media (min-width: 770px) {
 
-    html { font-size: 18px; }
 }
 
 
@@ -35,6 +36,8 @@
     
     .about-text { font-size: 21px; }
     
+    .base-text { font-size: 19px; }
+
     .small-text { font-size: 14px; }
 
 }
@@ -58,6 +61,8 @@
     
     .about-text { font-size: 24px; }
     
+    .base-text { font-size: 21px; }
+
     .small-text { font-size: 14px; }
 
 }
@@ -76,6 +81,8 @@
     .sub-subtitle-text { font-size: 60px; }
     
     .about-text { font-size: 38px; }
+
+    .base-text { font-size: 29px; }
     
     .small-text { font-size: 18px; }
     
