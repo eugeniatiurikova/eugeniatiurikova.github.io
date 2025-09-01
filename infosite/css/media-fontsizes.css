@@ -31,12 +31,6 @@
     
     .main-title, .subpromo-title { font-size: 72px; }
 
-    .subscribe-title { 
-        font-variation-settings: 'wght' 340, 'wdth' 54;
-        font-size: 72px;
-        line-height: 94%;
-    }
-    
     .sub-subtitle-text { font-size: 36px; }
     
     .about-text { font-size: 21px; }
@@ -48,7 +42,6 @@
 
 @media (min-width: 1280px) {
 
-    .subscribe-title { font-size: 72px; }
     
 }
 
@@ -70,7 +63,7 @@
 }
 
 
-@media (min-width: 1670px) {
+@media (min-width: 1680px) {
 
     html { font-size: 40px; }
 

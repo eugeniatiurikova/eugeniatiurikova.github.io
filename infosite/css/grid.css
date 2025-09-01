@@ -46,9 +46,9 @@
 
 }
 
-@media (min-width: 1920px) {
+@media (min-width: 1680px) {
     .wrapper, .wrapper-nogrid {
-        width: 1920px;
+        width: 1680px;
     }
 
 }
