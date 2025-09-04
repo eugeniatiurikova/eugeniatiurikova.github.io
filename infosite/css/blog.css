@@ -43,6 +43,9 @@
 .blog-submenu {
     display: none;
 }
+.blog-submenu-icon {
+    width:70px;
+}
 .blog-submenu-item {
     display: flex;
     flex-direction: row;
