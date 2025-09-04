@@ -6,10 +6,6 @@
     grid-column: span 4;
 }
 
-.subpage-title-container {
-    padding-top: var(--base-space);
-}
-
 .filter-container {
     display: flex;
     gap: 6px;

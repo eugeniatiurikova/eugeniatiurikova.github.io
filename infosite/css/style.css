@@ -140,6 +140,11 @@ img {
 
 /* _______________________ Блоки */
 
+
+.subpage-title-container {
+    padding-top: var(--base-space);
+}
+
 .menu-item {
     display: none;
 }
