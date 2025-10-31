@@ -94,7 +94,13 @@ img {
     font-size: 36px;
     line-height: 94%;
     text-transform: uppercase;
+    transition: 1000ms ease;
+    letter-spacing: 1%;
 }
+
+.subpromo-title:hover {
+    font-variation-settings: 'wght' 500, 'wdth' 50; 
+  }
 
 .sub-subtitle-text {
     font-variation-settings: 'wght' 500, 'wdth' 58;
@@ -212,7 +218,6 @@ img {
 
 .promo-item-center {
     display: block;
-
     text-align: center;
 }
 
