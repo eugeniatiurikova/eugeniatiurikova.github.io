@@ -181,6 +181,10 @@
     padding: 0 0 0 0.5rem;
 }
 
+.glossary-sections-wrapper {
+    column-count: 1; /* Одна колонка на мобильных */
+}
+
 .blog-main {
     padding-bottom: 20px;
 }
@@ -232,6 +236,15 @@
     width: 70px;
     height: 70px;
 }
+
+.glossary-letter-title {
+    grid-column: 1 / 7;
+}
+
+.glossary-toggle-all-container {
+    grid-column: 7 / -1;
+}
+
 }
 
 
@@ -402,6 +415,18 @@ flex-direction: column;
 } 
 .blog-recent-rubric {
 padding-left: 0;
+}
+
+.glossary-sections-wrapper {
+    column-count: 2;
+}
+
+.glossary-letter-title {
+    grid-column: 1 / 5;
+}
+
+.glossary-toggle-all-container {
+    grid-column: 5 / -1;
 }
 
 }

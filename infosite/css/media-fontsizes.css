@@ -7,7 +7,7 @@
     
     .main-title, .subpromo-title, .subscribe-title { font-size: 54px; }
     
-    .sub-subtitle-text { font-size: 27px; }
+    .sub-subtitle-text, .sub-subtitle-nav { font-size: 27px; }
     
     .about-text { font-size: 16px; }
 
@@ -21,6 +21,8 @@
 
 @media (min-width: 770px) {
 
+    .glossary-letter-title { font-size: 180px; }
+
 }
 
 
@@ -32,7 +34,7 @@
     
     .main-title, .subpromo-title { font-size: 72px; }
 
-    .sub-subtitle-text { font-size: 36px; }
+    .sub-subtitle-text, .sub-subtitle-nav { font-size: 36px; }
     
     .about-text { font-size: 21px; }
     
@@ -40,6 +42,8 @@
 
     .small-text { font-size: 14px; }
 
+    .glossary-letter-title { font-size: 250px; }
+    
 }
 
 
@@ -57,7 +61,7 @@
 
     .subscribe-title { font-size: 84px; }
 
-    .sub-subtitle-text { font-size: 42px; }
+    .sub-subtitle-text, .sub-subtitle-nav { font-size: 42px; }
     
     .about-text { font-size: 24px; }
     
@@ -78,7 +82,7 @@
 
     .subscribe-title { font-size: 119px; }
 
-    .sub-subtitle-text { font-size: 60px; }
+    .sub-subtitle-text, .sub-subtitle-nav { font-size: 60px; }
     
     .about-text { font-size: 38px; }
 

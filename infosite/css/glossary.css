@@ -1,0 +1,164 @@
+.glossary-maintitle-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+}
+
+.glossary-ru-btn, .glossary-en-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.glossary-ru-btn {
+    margin-right: 10px;
+    color: var(--color-accent);
+    cursor: default;
+    border-right: 1px solid black;
+    padding-right: 10px;
+}
+
+.glossary-alphabetnav {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 20px;
+    padding: calc(var(--base-space) / 2) 0 20px 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.glossary-alphabetnav-item {
+    text-decoration: none;
+    color: black;
+}
+
+.glossary-alphabetnav-item-active {
+    color: var(--color-accent);
+}
+.glossary-firstletter {
+    padding-top: 50px;
+}
+.glossary-letter-title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+    font-variation-settings: 'wght' 500, 'wdth' 100;
+    font-size: 90px;
+    line-height: 70%;
+    color: var(--color-accent);
+    display: block;
+}
+
+.glossary-toggle-all-container {
+    grid-column: 4 / -1;
+    grid-row: 1;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding: 20px 0;
+    border-bottom: 1px solid black;
+}
+
+.glossary-toggle-all-btn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    text-transform: lowercase;
+    transition: background-color 0.2s ease;
+}
+
+.glossary-toggle-all-btn:hover {
+    border-bottom: 1px dotted black;
+}
+
+.glossary-sections-wrapper {
+    grid-column: 1 / -1;
+    column-count: 1;
+    column-gap: 20px;
+    padding-top: 15px;
+}
+
+.glossary-section_open {
+    display: inline-block;
+    width: 100%;
+    break-inside: avoid; 
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 15px;
+    vertical-align: top; /* Выравнивание по верху в колонке */
+}
+
+
+.glossary-section-open-title {
+    cursor: pointer;
+    line-height: 1 !important; /* Переопределяем line-height: 120% из .base-text */
+    list-style: none; /* Убираем стандартный маркер */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.glossary-section-open-title::-webkit-details-marker {
+    display: none;
+}
+
+.glossary-section-open-title::marker {
+    display: none;
+}
+
+/* Добавляем кастомный маркер */
+.glossary-section-open-title::after {
+    content: '▶';
+    color: #D5D3CA;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+}
+
+.glossary-section_open[open] .glossary-section-open-title {
+    font-variation-settings: 'wght' 555, 'wdth' 100;
+}
+/* Поворачиваем маркер при раскрытии */
+.glossary-section_open[open] .glossary-section-open-title::after {
+    transform: rotate(90deg);
+}
+
+.glossary-section-open-title-translated {
+    padding: 5px 0 0 0;
+}
+
+.glossary-section-open-content, .glossary-section-open-title-image {
+    padding: calc(var(--base-space) / 3) 0 0 0;
+}
+
+.glossary-section-open-tags, .glossary-section-open-fonts {
+    padding: calc(var(--base-space) / 3) 0 0 0;
+}
+
+.glossary-section-open-tags::before {
+    content: "смотрите также";
+    margin-right: 10px;
+}
+
+.glossary-section-open-fonts::before {
+    content: "примеры шрифтов";
+    margin-right: 10px;
+}
+
+.glossary-section-tag {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #E6E6E6;
+    padding: 1px 4px;
+    border-radius: 5px;
+    margin-right: 5px;
+}

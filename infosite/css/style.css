@@ -110,6 +110,13 @@ img {
     text-decoration: none;
 }
 
+.sub-subtitle-nav {
+    font-variation-settings: 'wght' 440, 'wdth' 70;
+    font-size: 20px;
+    line-height: 94%;
+    text-transform: uppercase;
+}
+
 .about-text {
     font-variation-settings: 'wght' 400, 'wdth' 100;
     font-size: 16px;
