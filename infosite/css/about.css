@@ -1,0 +1,95 @@
+.about-us-partners-title {
+    display: block;
+    padding: 2rem 0 2rem 0;
+}
+
+.about-us-partners-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-bottom: 2rem;
+}
+
+.about-us-partner-logo-container {
+    width: 180px;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us-structure-title {
+    grid-column: 1 / -1;
+    padding: 1rem 0 2rem 0;
+    color: var(--color-accent);
+}
+
+.about-us-structure-subtitle {
+    grid-column: 1 / -1;
+    padding-bottom: 1rem;
+}
+
+.about-us-info {
+    grid-column: 1 / -1;
+    padding-bottom: 2rem;
+}
+
+.about-us-more-info {
+    grid-column: 1 / -1;
+    padding: 0 0 3rem 0;
+    border-bottom: 1px solid #000;
+}
+
+.about-us-rewards-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.about-us-reward-logo {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-us-team-container {
+    padding-bottom: 1rem;
+}
+
+.about-us-team-member {
+    grid-column: span 2;
+    padding-bottom: 2rem;
+}
+
+.about-us-team-member-image {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.about-us-team-member-name {
+    padding: 1rem 1rem 0 0;
+}
+
+
+.about-us-history-subtitle {
+    grid-row: span 3;
+    grid-column: span 2;
+}
+
+.about-us-history-info {
+    grid-column: 1 / -1;
+    padding: 0 0 2rem 0;
+}

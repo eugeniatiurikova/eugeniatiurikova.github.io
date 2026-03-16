@@ -55,7 +55,7 @@
 
 .services-list-title { padding: 18px 30% 18px 0; }
 
-.services-list-text { padding: 0 var(--base-space) var(--base-space) 0; }
+.services-list-text { padding: 0 var(--base-space) calc(var(--base-space) * 1.5) 0; }
 
 .services-list-img { height: 28vw; }
 
@@ -171,7 +171,7 @@
 .discuss-container {
     flex-direction: row;
     align-items: center;
-    margin-bottom: calc(var(--base-space) * 1.5);
+/*    margin-bottom: calc(var(--base-space) * 1.5);*/
 }
 
 .discuss-title { display: contents; }
@@ -243,6 +243,18 @@
 
 .glossary-toggle-all-container {
     grid-column: 7 / -1;
+}
+
+.about-us-structure-subtitle {
+    grid-column: 1 / 4;
+}
+
+.about-us-info {
+    grid-column: 4 / -1;
+}
+
+.about-us-history-subtitle {
+    grid-row: span 1;
 }
 
 }
@@ -429,6 +441,20 @@ padding-left: 0;
     grid-column: 5 / -1;
 }
 
+.about-us-partner-logo-container {
+    width: 271px;
+    height: 105px;
+}
+
+.about-us-rewards-container {
+    justify-content: space-between;
+}
+
+.about-us-reward-logo {
+    width: 70px;
+    height: 70px;
+}
+
 }
 
 
@@ -581,6 +607,12 @@ padding-left: 0;
 .blog-submenu-item {
     justify-content: left;
 }
+
+.about-us-reward-logo {
+    width: 90px;
+    height: 90px;
+}
+
 }
 
 

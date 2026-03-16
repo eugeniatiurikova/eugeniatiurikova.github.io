@@ -7,8 +7,8 @@
   
 @font-face {
     font-family: 'PragmaticaVF';
-    src: url('../media/fonts/PRG_Next-VF.ttf') format('truetype-variations'),
-         url('../media/fonts/PRG_Next-VF.ttf') format('truetype');
+    src: url('../media/fonts/pragmatica-next_vf.ttf') format('truetype-variations'),
+         url('../media/fonts/pragmatica-next_vf.ttf') format('truetype');
     font-weight: 100 900;
     font-style: normal;
     font-display: swap;
@@ -76,34 +76,34 @@ img {
 }
 
 .main-title {
-    font-variation-settings: 'wght' 580, 'wdth' 58;
+    font-variation-settings: 'wght' 580, 'wdth' 55;
     font-size: 36px;
     line-height: 94%;
     text-transform: uppercase;
 }
 
 .subscribe-title {
-    font-variation-settings: 'wght' 580, 'wdth' 58;
+    font-variation-settings: 'wght' 580, 'wdth' 55;
     font-size: 36px;
     line-height: 94%;
     text-transform: uppercase;
 }
 
 .subpromo-title {
-    font-variation-settings: 'wght' 340, 'wdth' 54;
+    font-variation-settings: 'wght' 372, 'wdth' 18;
     font-size: 36px;
     line-height: 94%;
     text-transform: uppercase;
-    transition: 1000ms ease;
+/*    transition: 1000ms ease;*/
     letter-spacing: 1%;
 }
-
+/*
 .subpromo-title:hover {
     font-variation-settings: 'wght' 500, 'wdth' 50; 
   }
-
+*/
 .sub-subtitle-text {
-    font-variation-settings: 'wght' 500, 'wdth' 58;
+    font-variation-settings: 'wght' 372, 'wdth' 60;
     font-size: 20px;
     line-height: 94%;
     text-transform: uppercase;
@@ -156,6 +156,11 @@ img {
 
 .subpage-title-container {
     padding-top: var(--base-space);
+}
+
+.subpage-title {
+    grid-column: 1 / -1;
+    padding-bottom: 1.5rem;
 }
 
 .menu-item {
@@ -565,4 +570,52 @@ img {
 
 .footer-divider {
     grid-column: 1 / -1;
+}
+
+
+.discuss-container {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    gap: 0 20px;
+    padding: var(--base-space);
+    background-color: var(--color-accent);
+    color: white;
+    border-radius: 9px;
+}
+
+.discuss-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discuss-text {
+    padding-top: 1rem;
+}
+
+.discuss-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+    margin-top: var(--base-space);
+}
+
+.search-title-tip {
+    margin: 0;
+    padding: 0 0 calc(var(--base-space) / 2) 0;
+    line-height: 1px;
+}
+
+.search-tip-nothing-found {
+    color: var(--color-accent);
+    padding: calc((var(--base-space) / 2) - 10px) 0 calc(var(--base-space) * 2) 0;
+}
+
+.search-tip-look-for-similar {
+    margin-bottom: calc(-1 * var(--base-space) / 2);
 }
