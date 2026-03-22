@@ -9,6 +9,13 @@
     padding-inline: 20px;
 }
 
+.wrapper-noinline {
+    width: 100%;
+    display: grid;
+    gap: 0 20px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
 .wrapper-nogrid {
     margin: 0 auto;
     width: 100%;
@@ -28,6 +35,8 @@
         grid-template-columns: repeat(8, 1fr);
         padding-inline: 20px;
     }
+
+    .wrapper-noinline { grid-template-columns: repeat(8, 1fr); }
 
     .wrapper-nogrid { padding-inline: 20px; }
 

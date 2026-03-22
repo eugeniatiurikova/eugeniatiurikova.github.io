@@ -1,0 +1,213 @@
+.services-about-text-container {
+    grid-column: 2 / -1;
+    align-self: start;
+    margin-top: 0;
+    padding-bottom: 2rem;
+}
+
+.services-partners-logos {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    padding-bottom: 2rem;
+}
+
+.services-partner-logo-container {
+    min-width: calc(2.5rem * 2.6);
+    min-height: 2.5rem;
+    padding: 10px;
+    border: 1px solid #E0E0E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-partner-logo {
+    width: 100%;
+    height: 100%;
+    max-height: 2.5rem;
+    object-fit: contain;
+}
+
+.services-info-container {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+
+.services-info-text {
+    grid-column: 1 / -1;
+    padding-right: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.services-info-title {
+    grid-column: 1 / -1;
+    padding-bottom: 20px;
+}
+
+.services-info-title-full {
+    grid-column: 1 / -1;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+
+.services-process-img {
+    padding-top: 1rem;
+}
+
+.services-features-list {
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.services-features-item {
+    padding-top: 20px;
+}
+
+.service-feature-title {
+    display:block;
+    grid-column: 1 / 2;
+}
+
+.services-features-item-info-image {
+    grid-column: 2 / -1;
+    padding-right: 10%;
+}
+
+.services-features-item-info-icon {
+    display: none;
+    grid-column: 4 / 5;
+    padding-right: 10%;
+}
+
+.services-features-item-text {
+    grid-column: 2 / -1;
+}
+
+.services-features-arrow {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-bottom: 20px;
+}
+
+.services-showall-container {
+    padding-top:20px;
+}
+
+.discuss-large {
+margin-top: var(--base-space);
+/* margin-bottom: 1rem;
+   background-clip: content-box;*/
+}
+
+.services-discuss-form {
+    padding: 1.5rem 2rem 2rem 2rem;
+    background-color: var(--color-subscribe);
+    border-radius: 9px;
+}
+
+.services-discuss-title {
+    grid-column: 1 / -1;
+    padding-bottom: 1rem;
+}
+.services-discuss-text {
+    grid-column: 1 / -1;
+}
+.services-discuss-input-name {
+    grid-column: 1 / -1;
+    border: none;
+    border-radius: 9px;
+    padding: 20px 30px;
+    margin: 25px 0 0 0;
+}
+.services-discuss-input-company {
+    grid-column: 1 / -1;
+    border: none;
+    border-radius: 9px;
+    padding: 20px 30px;
+    margin: 25px 0 25px 0;
+}
+.services-discuss-input {
+    grid-column: 1 / -1;
+    border: none;
+    border-radius: 9px;
+    padding: 20px 30px;
+    margin: 25px 0 25px 0;
+}
+.services-discuss-textarea {
+    grid-column: 1 / -1;
+    font-family: 'PragmaticaVF';
+    resize: none;
+    border: none;
+    border-radius: 9px;
+    padding: 20px 30px;
+    margin: 0 0 25px 0;
+    height: 200px;
+}
+.services-discuss-button {
+    grid-column: 1 / -1;
+}
+
+.services-float-button-container {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.services-float-button {
+    display: none;
+    grid-column: 8 / -1;
+    margin-top: 10px;
+    margin-bottom: -100px;
+}
+
+/* -----------------------Все услуги------------------------- */
+
+.services-full-item {
+    grid-column: span 4;
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid black;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.services-full-item-title {
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+.services-full-item-subtitle {
+    grid-column: 4 / 8;
+    grid-row: 1;
+}
+.services-full-item-text {
+    grid-column: 1 / 4;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+    height: 100%;
+    padding-top: 1rem;
+}
+.services-full-item-img {
+    grid-column: 4 / -1;
+    grid-row: 2;
+    min-height: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.services-full-item-button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
